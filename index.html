@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>ian bst</title>
+    <style>
+      [class="col"] {
+        padding: 1rem;
+        background-color: aqua;
+        border: 2px solid#ffff;
+        color: #ffff;
+      }
+      .child {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-md border my-5">
+      <div class="row">
+        <div class="col">col 1</div>
+        <div class="col">col 2</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">One of three columns</div>
+        <div class="col">One of three columns</div>
+        <div class="col">One of three columns</div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">One of three columns</div>
+        <div class="col">One of three columns</div>
+        <div class="col">One of three columns</div>
+      </div>
+      <div class="row align-items-end">
+        <div class="col">One of three columns</div>
+        <div class="col">One of three columns</div>
+        <div class="col">One of three columns</div>
+        <div class="container my-5">
+          <div class="row justify-content-center">
+            <div class="col">col 1</div>
+            <div class="col">col 2</div>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="text-center my-5">GUTTER</h1>
+      <div class="container my-5">
+        <div class="row gx-5 gy-4">
+          <div class="col"><div class="child">1</div></div>
+          <div class="col"><div class="child">2</div></div>
+          <div class="col"><div class="child">3</div></div>
+          <div class="col"><div class="child">4</div></div>
+        </div>
+      </div>
+      <h1 class="text-center my-5">BUTTONS</h1>
+      <div class="container my-5">
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-secondary">secondary</button>
+        <button class="btn btn-success">success</button>
+        <button class="btn btn-danger">danger</button>
+        <button class="btn btn-warning">warning</button>
+        <button class="btn btn-light">light</button>
+        <button class="btn btn-dark">dark</button>
+      </div>
+      <h1 class="text-center my-5">cards</h1>
+      <div class="row">
+        <div class="container my-5">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://images.unsplash.com/photo-1663024718100-9250a83a1db5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+              class="card-img-top/300/200"
+              alt="dem"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1663045202256-6a5e7a4d0c6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top/400/300"
+                alt="black"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1663045202256-6a5e7a4d0c6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top/400/300"
+                alt="black"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1663045202256-6a5e7a4d0c6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                class="card-img-top/400/300"
+                alt="black"
+              />
+             
+      </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
